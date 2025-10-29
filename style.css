@@ -1,14 +1,8 @@
 body {
-  background: 
-    url('https://www.visitardenne.com/sites/default/files/styles/small_650x650/public/upload/destinations%20incontournables/forets/Foret_00_2012_Johan.Barrot_0.JPG?itok=nehq_hj9') no-repeat center top,
-    linear-gradient(to right, rgb(0, 150, 0), rgb(0, 80, 0));
-  
+  background: url('https://www.visitardenne.com/sites/default/files/styles/small_650x650/public/upload/destinations%20incontournables/forets/Foret_00_2012_Johan.Barrot_0.JPG?itok=nehq_hj9') no-repeat center top, linear-gradient(to right, rgb(0, 150, 0), rgb(0, 80, 0));
   background-size: 100% auto, cover;
-  
-  background-attachment: fixed, fixed;
-  
+  background-attachment: scroll, scroll; 
   margin: 0;
-  
   padding: 0 20px;
 }
 
@@ -19,67 +13,62 @@ body {
   text-align: center;
   font-family: monospace, helvetica, sans-serif;
   font-weight: bold;
-  position: fixed;
-  left: 100;
-  top: 40px;
+  padding: 30px 0 10px 0;
 }
 
 .sections {
   text-align: center;
   font-size: 20px;
-  margin-bottom: 50px;
-  position: fixed;
-  top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-#dag-1 {
-  margin-right: 20px;
+#dag-1, #dag-2, #dag-3 {
+  margin: 0 10px;
   background-color: rgba(0, 200, 0, 0.7);
   color: black;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
-  padding: 5px;
-}
-
-#dag-2 {
-  margin-right: 20px;
-  background-color: rgba(0, 200, 0, 0.7);
-  color: black;
-  border-radius: 5px;
-  font-size: 25px;
-  text-decoration: none;
-  padding: 5px;
-
-}
-
-#dag-3 {
-  margin-right: 20px;
-  background-color: rgba(0, 200, 0, 0.7);
-  color: black;
-  border-radius: 5px;
-  font-size: 25px;
-  text-decoration: none;
-  padding: 5px;
-
+  padding: 5px 10px;
+  display: inline-block;
 }
 
 .intro {
-  font-size: 20px;
   text-align: center;
-  padding: 0 20%;
-  position: fixed;
-  top: 200px;
-  left: 0;
-  
+  padding: 0;
 }
 
 #intro {
   background-color: rgba(0, 128, 0, 0.7);
-  margin-right: 20px;
   color: black;
   border-radius: 5px;
   font-size: 20px;
-  padding: 5px;
-  position: fixed;
+  padding: 15px;
+  display: inline-block;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.dag-sectie {
+  background-color: rgba(0, 128, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin: 30px auto;
+  max-width: 900px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dag-titel {
+  font-size: 30px;
+  text-shadow: 1px 1px 3px #000;
+  margin-top: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 5px;
+}
+
+.dag-tekst {
+  font-size: 18px;
+  line-height: 1.6;
 }
