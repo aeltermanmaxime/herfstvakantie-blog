@@ -25,10 +25,10 @@ body {
 }
 
 #dag-1, #dag-2, #dag-3, #dag-4, #dag-5, #dag-6, #dag-7 {
-  margin: 0 10px;
+  margin: 3px 10px;
   background-color: rgba(0, 200, 0, 0.7);
   color: black;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 20px;
   text-decoration: none;
   padding: 5px 10px;
