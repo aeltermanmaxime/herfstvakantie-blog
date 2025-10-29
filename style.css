@@ -27,6 +27,7 @@ body {
   text-align: center;
   font-size: 20px;
   margin-bottom: 50px;
+  position: fixed;
 }
 
 #dag1 {
