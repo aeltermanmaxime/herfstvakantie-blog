@@ -32,7 +32,7 @@ body {
   top: 30px;
 }
 
-#dag1 {
+#dag-1 {
   margin-right: 20px;
   background-color: rgba(0, 200, 0, 0.7);
   color: black;
@@ -42,7 +42,7 @@ body {
   padding: 5px;
 }
 
-#dag2 {
+#dag-2 {
   margin-right: 20px;
   background-color: rgba(0, 200, 0, 0.7);
   color: black;
@@ -53,7 +53,7 @@ body {
 
 }
 
-#dag3 {
+#dag-3 {
   margin-right: 20px;
   background-color: rgba(0, 200, 0, 0.7);
   color: black;
