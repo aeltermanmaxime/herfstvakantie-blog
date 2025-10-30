@@ -77,28 +77,5 @@ body {
 #dag1-foto1, #dag1-foto2, #dag1-foto3, #dag2-foto1, #dag2-foto2, #dag3-foto1 {
   width: 200px;
   height: auto;
-}
-
-#dag1-foto1 {
-  border-radius: 96% 4% 95% 5% / 3% 95% 5% 97%;
-}
-
-#dag1-foto2 {
-  border-radius: 49% 51% 53% 47% / 57% 57% 43% 43%;
-}
-
-#dag1-foto3 {
-  border-radius: 96% 4% 95% 5% / 3% 95% 5% 97%;
-}
-
-#dag2-foto1 {
-  border-radius: 96% 4% 95% 5% / 3% 95% 5% 97%;
-}
-
-#dag2-foto2 {
-  border-radius: 20% 80% 31% 69% / 57% 29% 71% 43% ;
-}
-
-#dag3-foto1 {
-  border-radius: 58% 42% 83% 17% / 23% 72% 28% 77%;
+  border-radius: 20% 80% 31% 69% / 57% 29% 71% 43% 
 }
