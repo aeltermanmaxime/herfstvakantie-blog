@@ -77,5 +77,5 @@ body {
 #dag1-foto1, #dag1-foto2, #dag1-foto3, #dag2-foto1, #dag2-foto2, #dag3-foto1 {
   width: 200px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 58% 42% 83% 17% / 23% 72% 28% 77%;
 }
